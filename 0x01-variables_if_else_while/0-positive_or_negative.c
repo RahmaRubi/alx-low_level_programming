@@ -10,17 +10,17 @@ int x;
 scanf("%d", x);
 if (x > 0)
 {
-printf"x is positive\n";
+printf"$x is positive\n";
 }
 else if (x < 0)
 {
-printf"x is negative\n";
+printf"$x is negative\n";
 
 }
 
 else if (x == 0)
 {
-printf"x is zero\n";
+printf"$x is zero\n";
 
 }
 return (0);
