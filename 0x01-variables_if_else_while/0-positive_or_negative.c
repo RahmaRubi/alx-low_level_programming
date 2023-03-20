@@ -10,17 +10,17 @@ int n;
 scanf("%d", n);
 if (n > 0)
 {
-printf("%n is positive\n", n);
+printf("%d is positive\n", n);
 }
 else if (n < 0)
 {
-printf("%n is negative\n", n);
+printf("%d is negative\n", n);
 
 }
 
 else if (n == 0)
 {
-print("%n is zero\n", n);
+print("%d is zero\n", n);
 
 }
 return (0);
