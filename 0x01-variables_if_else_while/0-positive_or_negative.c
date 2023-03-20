@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-int x;
-scanf("%d", x);
-if (x > 0)
+int n;
+scanf("%d", n);
+if (n > 0)
 {
-printf"$x is positive\n";
+printf("%n is positive\n", n);
 }
-else if (x < 0)
+else if (n < 0)
 {
-printf"$x is negative\n";
+printf("%n is negative\n", n);
 
 }
 
-else if (x == 0)
+else if (n == 0)
 {
-printf"$x is zero\n";
+print("%n is zero\n", n);
 
 }
 return (0);
