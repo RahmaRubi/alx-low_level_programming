@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include "0-isupper.c"
+#include "main.h"
 /**
  * main - check the code.
  *
