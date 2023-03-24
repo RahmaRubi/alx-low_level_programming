@@ -2,7 +2,7 @@
 /**
  * mul - multiply
  * @a: first input
- * @b: second 
+ * @b: second
  * Return: multiply the two numbers
  */
 int mul(int a, int b)
