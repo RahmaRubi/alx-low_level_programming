@@ -16,7 +16,7 @@ for (i = 0; i <= 9; i++)
 		if (j > 9)
 		{
 			_putchar('1');
-			a % = 10;
+			a = a % 10;
 		}
 		_putchar(a + '0');
 	}
