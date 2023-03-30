@@ -10,12 +10,15 @@
  */
 void reverse_array(int *a, int n)
 {
-int i;
+int i, j, c;
 
-for (i = n-1; i>=0 ;i--)
-printf("%d ", a[i]);
-
-
-
+j = 0;
+for (i = n-1; i >= n/2; i--)
+{
+	c = a[j];
+	a[j] = a[i];
+	a[i] = c;
+	j++;
+}
 }
 
