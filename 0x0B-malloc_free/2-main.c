@@ -21,5 +21,4 @@ printf("%s\n", s);
 free(s);
 return (0);
 }
-Footer
-© 2023 GitHub, In
+
