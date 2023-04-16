@@ -10,11 +10,26 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-i = 0;
+(void) argc;
 
-for (i = 0; i < argc; i++)
-printf("%s\n", argv[i]);
+if (argv[1] == NULL || argv[2] == NULL)
+printf(0, "\n");
+else
+{
+int sum;
+sum = 0;
+int i;
+i = 1;
+
+for (i = 1; i < argc; i++)
+{
+a = atoi(argv[i]);
+sum+= a;
+
+}
+
+printf("%d\n", sum);
+}
 return (0);
 
 
