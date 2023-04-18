@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * new dog - a function creates a new variable from the previous struct
+ * new_dog - a function creates a new variable from the previous struct
  * @name: firsty passing paramter
  * @age: second from type float
  * @owner: third
