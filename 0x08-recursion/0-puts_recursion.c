@@ -1,12 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+#include <stdio.h>
 
 /**
- * _puts_recursion(char *s) - print function
- * @s: the function's paramter
- * return: nothing
+ * _puts_recursion - print string
+ * @s: f input
+ *
+ * Return: none
  */
 
 void _puts_recursion(char *s)
