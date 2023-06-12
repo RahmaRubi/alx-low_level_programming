@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+/**
+* main - multypliing function
+* @argc: counter argument
+* @argv: array of argument
+* Return: returns 0
+*/
+
 int main(int argc, char *argv[])
 {
 
