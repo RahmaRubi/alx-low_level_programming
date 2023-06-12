@@ -3,10 +3,13 @@
 
 int main (int argc, char *argv[])
 {
+
 	if(argc)
-printf("%d", argc-1);
-	else
+	{
+	printf("%d\n", argc - 1);
+	(void) argv;
+	}
+	
 	return(0);
-	printf("\n");
 }
 
