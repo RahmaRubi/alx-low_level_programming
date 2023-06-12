@@ -11,7 +11,7 @@ sum = 0;
 for (i = 1; i < argc; i++)
 {
 	j = 0;
-	while(argv[i][j])
+	while (argv[i][j])
 	{
 		if (!isdigit(argv[i][j]))
 		{
