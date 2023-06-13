@@ -5,7 +5,7 @@
 /**
  * create_array - function for creation array of char
  * @size: number of elements
- * c: intial charcter the pointer points to it 
+ * c: intial charcter the pointer points to it
  * Return: return null or address
  */
 
@@ -14,18 +14,18 @@ char *create_array(unsigned int size, char c)
 	if (size)
 	{
 		char *str;
-		str = malloc(size* sizeof(char));
+
+		str = malloc(size * sizeof(char));
 		if (str)
 		{
-			str[0] = c;		
-		
+			str[0] = c;
 		return (str);
 		}
-		else 
+		else
 		return (str);
 	}
 
-	else 
+	else
 		return (NULL);
 
 
