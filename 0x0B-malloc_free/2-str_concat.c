@@ -28,9 +28,13 @@ char *str_concat(char *s1, char *s2)
 	{
 		for (i = 0; i < strlen(s1); i++)
 			p[i] = s1[i];
-
-		for (; i - strlen(s1)  <= strlen(s2); i++)
-			p[i] = s2[i - strlen(s1)];
+		if (s1 != NULL)
+		x = strlen(s1);
+		else
+			x = 0;
+		for (;  s2 && i - x < strlen(s2); i++)
+			p[i] = s2[i - x];
+			p[i] = '\0';
 		return (p);
 	}
 
