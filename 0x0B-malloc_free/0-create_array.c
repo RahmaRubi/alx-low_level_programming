@@ -5,7 +5,7 @@
 /**
  * create_array - function for creation array of char
  * @size: number of elements
- * c: intial charcter the pointer points to it
+ * @c: intial charcter the pointer points to it
  * Return: return null or address
  */
 
