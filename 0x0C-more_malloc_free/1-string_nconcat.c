@@ -6,6 +6,7 @@
 * string_nconcat - concat function
 * @s1: first
 * @s2: second
+* @n: number of letters concatnated
 * Return: pointer or null
 */
 
