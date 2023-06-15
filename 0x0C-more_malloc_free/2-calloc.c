@@ -14,11 +14,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 
-	if (size && nmemb)
+	if (size)
 	{
 		char *str;
 
-		str = malloc(size * nmemb);
+		str = malloc(size * sizeof(nmemb));
 		if (str)
 		{
 			for (i = 0; i < size; i++)
@@ -29,4 +29,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 			return (NULL);                     
 	}
 	return (NULL);
-}
+i
