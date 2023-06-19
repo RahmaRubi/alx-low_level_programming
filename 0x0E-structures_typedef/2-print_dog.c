@@ -24,7 +24,7 @@ void print_dog(struct dog *d)
 			printf("nill");
 		printf("%s\n", d->owner);
 	}
-	printf("\n");
+	printf("");
 	return;
 
 
