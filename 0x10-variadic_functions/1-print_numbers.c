@@ -24,7 +24,7 @@ if (n != 0)
 	for (i = 0; i < n; i++)
 	{	x =  va_arg(ptr, unsigned int);
 		if (separator && i < n - 1)
-			printf("%d %s", x, separator);
+			printf("%d%s", x, separator);
 		else
 			printf("%d ", x);
 	}
@@ -32,7 +32,4 @@ if (n != 0)
 }
 
 return;
-
-
-
 }
