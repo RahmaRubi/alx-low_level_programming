@@ -22,7 +22,7 @@ if (n != 0)
 	va_start(ptr, n);
 
 	for (i = 0; i < n; i++)
-	{	x =  va_arg(ptr, unsigned int);
+	{	x =  va_arg(ptr, int);
 		if (separator && i < n - 1)
 			printf("%d%s", x, separator);
 		else
