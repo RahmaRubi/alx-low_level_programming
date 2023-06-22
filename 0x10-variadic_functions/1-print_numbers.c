@@ -29,6 +29,7 @@ if (n != 0)
 			printf("%d", x);
 	}
 	printf("\n");
+	va_end(ptr);
 }
 
 return;
