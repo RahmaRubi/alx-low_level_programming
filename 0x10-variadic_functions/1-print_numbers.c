@@ -26,7 +26,7 @@ if (n != 0)
 		if (separator && i < n - 1)
 			printf("%d%s", x, separator);
 		else
-			printf("%d ", x);
+			printf("%d", x);
 	}
 	printf("\n");
 }
