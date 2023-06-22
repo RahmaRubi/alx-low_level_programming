@@ -28,9 +28,9 @@ if (n != 0)
 		else
 			printf("%d", x);
 	}
-	printf("\n");
+
 	va_end(ptr);
 }
-
+printf("\n");
 return;
 }
