@@ -28,8 +28,8 @@ if (n != 0)
 		else
 			printf("%s%s", x ? x : "(nil)", separator);
 	}
-	printf("\n");
 	va_end(ptr);
-return;
+
 }
+printf("\n");
 }
