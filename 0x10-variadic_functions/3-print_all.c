@@ -16,9 +16,9 @@ void print_all(const char * const format, ...)
 	sep = ", ";
 	i = 0, n = 0;
 	va_start(ptr, format);
-	while(format[n++])
+	while(format && format[n++])
 	n--;
-	while ( i < n)
+	while ( i < n && format)
 	{
 		if (i == (n - 1))
 			sep = "";	
