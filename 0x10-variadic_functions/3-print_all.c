@@ -13,6 +13,7 @@ void print_all(const char * const format, ...)
 	int i, n;
 	va_list ptr;
 	char *sep, *string;
+
 	sep = ", ";
 	i = 0, n = 0;
 	va_start(ptr, format);
