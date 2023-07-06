@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * binary_to_unit - binary to decimal
+ * @b: para
+ * Return: 0 or decimal value
+ */
+
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int sum, bpow, x;
@@ -7,8 +13,6 @@ unsigned int binary_to_uint(const char *b)
 	sum = 0, bpow = 1, c = 0;
 	if (b == NULL || *b == '\0')
 		return (0);
-	else
-	{
 	while (b[c] != '\0')
 		c++;
 	for (i = c - 1; i >= 0; i--)
@@ -19,15 +23,14 @@ unsigned int binary_to_uint(const char *b)
 			sum += (bpow * x);
 			bpow *=  2;
 		}
-		else 
-		{	
+		else
+		{
 			sum = 0;
 			break;
 
 		}
-	
+
 	}
 		return (sum);
 	}
 
-}
