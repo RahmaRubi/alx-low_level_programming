@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * binary_to_unit - binary to decimal
+ * binary_to_uint - binary to decimal
  * @b: para
  * Return: 0 or decimal value
  */
