@@ -1,0 +1,1 @@
+Readmea for bit mask
