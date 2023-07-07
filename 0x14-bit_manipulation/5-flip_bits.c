@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * filp_bits - shifting two numbers and calc how many bits'
- *  flips do i need to make this shift
- *  @n: first num
- *  @m: sec num
- *  Return: flip's counter
+ * flip_bits - shifting between two numbers
+ * and calc how many bits do we need to flip to get this shift
+ * @n: first num
+ * @m: sec num
+ * Return: counter
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
