@@ -1,4 +1,9 @@
 #include "lists.h"
+/**
+ * print_list - print list
+ * @h: head
+ * Return: elements number
+ */
 size_t print_list(const list_t *h)
 {
 	size_t i;
