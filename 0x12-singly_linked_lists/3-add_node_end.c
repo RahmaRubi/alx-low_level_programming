@@ -20,6 +20,9 @@ list_t *add_node_end(list_t **head, const char *str)
 	if ((!*head))
 	{
 		*head = tail;
+	        tail->next = NULL;
+	       	tail->len = i;
+	        tail->str = strdup(str);
 		return (tail);
 	}
 	while (temp->next)
