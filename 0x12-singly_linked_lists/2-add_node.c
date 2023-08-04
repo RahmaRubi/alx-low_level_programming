@@ -8,9 +8,10 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	unsigned int i;
+	list_t *new;
 
 	i = 0;
-	list_t *new = (list_t *) malloc(sizeof(list_t));
+	new = (list_t *) malloc(sizeof(list_t));
 
 	while (str[i])
 		i++;
