@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ * add_dnodeint_end - add an end node for the list
+ * @head: two pointer for the head
+ * @n: data
+ * Return: list
+ */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *end, *temp;
