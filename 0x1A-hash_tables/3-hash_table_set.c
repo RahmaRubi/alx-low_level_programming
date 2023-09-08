@@ -1,5 +1,6 @@
 /**
  * hash_table_set - setting a key value pair
+ * @ht: our table
  * @key: key
  * @value: value
  * Return: 1 in success, 0 otherwise
