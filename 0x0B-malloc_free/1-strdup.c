@@ -17,10 +17,8 @@ char *_strdup(char *str)
 		p = malloc(strlen(str) + 1);
 				if (p)
 				{
-					unsigned int i;
+					p = str;
 
-					for (i = 0; i <= strlen(str); i++)
-						*(p + i) = *(str + i);
 					return (p);
 				}
 				else
