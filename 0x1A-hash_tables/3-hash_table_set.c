@@ -35,11 +35,11 @@ if (!node)
 	return (0);
 node->key = strdup(key);
 if (!node->key)
-	return (1);
+	return (0);
 node->value = strdup(value);
 if (!node->value)
-	return (1);
+	return (0);
 node->next = ht->array[index];
 ht->array[index] = node;
 return (1);
-
+}
