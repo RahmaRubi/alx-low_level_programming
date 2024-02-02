@@ -1,5 +1,0 @@
-int main(int argc, **argv)
-{
-	git add . && git commit -m argv[1] && git push
-
-}
