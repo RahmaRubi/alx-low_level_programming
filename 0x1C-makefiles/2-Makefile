@@ -4,4 +4,4 @@ NAME = school
 CC = gcc
 
 all: $(OBJ)
-	$(CC) $(SRC) -o $(school)
+	$(CC) $(SRC) -o $(NAME)
