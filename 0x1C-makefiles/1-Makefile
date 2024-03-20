@@ -1,4 +1,5 @@
-CC = gcc #variable for gcc
-SRC = $(wildcard *.c)
+SRC = main.c school.c
+CC = gcc
+
 all: main.o school.o
 	$(CC) $(SRC) -o school
